@@ -129,6 +129,7 @@ public class Ejemplooficial2 {
             case "-" -> num1 - num2;
             case "*" -> num1 * num2;
             case "/" -> num1 / num2;
+            case "d" -> num1 / num2;
             default -> 0;
         };
     }
