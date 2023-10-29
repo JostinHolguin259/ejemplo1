@@ -44,6 +44,7 @@ public class Ejemplooficial2 {
                     } else {
                         preguntasIncorrectas++;
                         mostrarRespNegativa();
+                        mostrarRespNegativa2();
                     }
                 }
                 
@@ -154,5 +155,15 @@ public class Ejemplooficial2 {
         int indiceRespuesta = randomNumbers.nextInt(respuestasNegativas.length);
         System.out.println(respuestasNegativas[indiceRespuesta]);
     }
-    
+     private static void mostrarRespNegativa2() {
+        String[] respuestasNegativas = {
+                "Por favor intenta de nuevo.",
+                "Incorrecto. Intenta una vez mas.",
+                "¡No te rindas!",
+                "No es correcto. Sigue intentando."
+                
+        };
+        int indiceRespuesta = randomNumbers.nextInt(respuestasNegativas.length);
+        System.out.println(respuestasNegativas[indiceRespuesta]);
+    }
 }
