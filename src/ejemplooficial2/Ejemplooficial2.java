@@ -93,6 +93,7 @@ public class Ejemplooficial2 {
         System.out.println("5. Mezcla aleatoria");
         System.out.println("----------------------------------------:");
         System.out.print("Elige el tipo de operación aritmetica que deseas resolver: ");
+         System.out.print("Elige el tipo de operación aritmetica que deseas resolver: ");
         System.out.println("-------:");
         tipoProblema = scanner.nextInt();
     }
@@ -148,6 +149,7 @@ public class Ejemplooficial2 {
                 "Incorrecto. Intenta una vez mas.",
                 "¡No te rindas!",
                 "No es correcto. Sigue intentando."
+                
         };
         int indiceRespuesta = randomNumbers.nextInt(respuestasNegativas.length);
         System.out.println(respuestasNegativas[indiceRespuesta]);
